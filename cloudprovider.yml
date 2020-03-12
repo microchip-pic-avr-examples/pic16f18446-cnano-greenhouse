@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: xc8-mplabx
+spec:
+  containers:
+    - name: xc8-mplabx
+      image: artifacts.microchip.com:7999/microchip/citd/bundles/xc8-mplabx:2.10-5.30
+      imagePullPolicy: Always
+      command: ['cat']
+      tty: true
+      resources:
+        requests:
+          cpu: 1
+          memory: 4Gi
+        limits:
+          cpu: 2
+          memory: 8Gi
