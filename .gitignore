@@ -1,6 +1,3 @@
-/*/dist/
-/*/build/
-/*/nbproject/private/
-/*/nbproject/*.properties
-/*/nbproject/*.mk
-/*/nbproject/*.bash
+pic16f18446-cnano-plant-monitoring-system.X/build
+pic16f18446-cnano-plant-monitoring-system.X/debug
+pic16f18446-cnano-plant-monitoring-system.X/dist
