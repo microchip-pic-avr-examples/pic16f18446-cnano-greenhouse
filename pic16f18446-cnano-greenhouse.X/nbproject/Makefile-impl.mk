@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=pic16f18446-cnano-plant-monitoring-system.X
+PROJECTNAME=pic16f18446-cnano-greenhouse.X
 
 # Active Configuration
 DEFAULTCONF=free

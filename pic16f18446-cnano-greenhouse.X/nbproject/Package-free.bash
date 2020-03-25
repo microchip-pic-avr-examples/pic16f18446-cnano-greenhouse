@@ -10,9 +10,9 @@ CND_CONF=free
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/pic16f18446-cnano-plant-monitoring-system.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=pic16f18446-cnano-plant-monitoring-system.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=pic16f18446-cnano-plant-monitoring-system.x/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/pic16f18446-cnano-greenhouse.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=pic16f18446-cnano-greenhouse.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=pic16f18446-cnano-greenhouse.x/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/pic16f18446-cnano-plant-monitoring-system.x/bin
+makeDirectory ${TMPDIR}/pic16f18446-cnano-greenhouse.x/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/pic16f18446-cnano-plant-monitoring-system.x.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/pic16f18446-cnano-greenhouse.x.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/pic16f18446-cnano-plant-monitoring-system.x.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/pic16f18446-cnano-greenhouse.x.tar *
 checkReturnCode
 
 # Cleanup

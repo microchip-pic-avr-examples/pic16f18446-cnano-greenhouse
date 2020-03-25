@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>pic16f18446-cnano-plant-monitoring-system</name>
+            <name>pic16f18446-cnano-greenhouse</name>
             <creation-uuid>6c4aa229-f0ec-4c9d-bfcf-3efea3bddda3</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
