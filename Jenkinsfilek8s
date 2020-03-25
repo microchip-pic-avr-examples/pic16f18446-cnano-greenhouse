@@ -1,7 +1,7 @@
 pipeline {
     agent {
         kubernetes {
-            label 'pic16f18446-curiosity-nano-plant-monitoring-system'
+            label 'pic16f18446-cnano-plant-monitoring-system'
 			defaultContainer 'xc8-mplabx'
             yamlFile 'cloudprovider.yml'
         }
@@ -27,8 +27,8 @@ pipeline {
     }
 	
 	environment {		
-		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/pic16f18446-curiosity-nano-plant-monitoring-system.git'
-		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/pic16f18446-curiosity-nano-plant-monitoring-system.git'
+		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/pic16f18446-cnano-plant-monitoring-system.git'
+		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/pic16f18446-cnano-plant-monitoring-system.git'
 		DEPLOY_TOOL_URL = 'https://bitbucket.microchip.com/scm/citd/tool-github-deploy.git'
 		DEPLOY_SCRIPT_DIR = 'tool-github-deploy'
 		DEPLOY_SCRIPT_FILE = 'deploy-source-as-is.sh'
