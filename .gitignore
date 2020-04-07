@@ -1,3 +1,6 @@
-pic16f18446-cnano-greenhouse.X/build
-pic16f18446-cnano-greenhouse.X/debug
-pic16f18446-cnano-greenhouse.X/dist
+/*/dist/
+/*/build/
+/*/nbproject/private/
+/*/nbproject/*.properties
+/*/nbproject/*.mk
+/*/nbproject/*.bash
