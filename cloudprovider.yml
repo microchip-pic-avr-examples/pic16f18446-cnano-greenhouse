@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: xc8-mplabx
-      image: artifacts.microchip.com:7999/microchip/citd/bundles/xc8-mplabx:2.10-5.30
+      image: artifacts.microchip.com:7999/microchip/citd/bundles/xc8-mplabx:latest
       imagePullPolicy: Always
       command: ['cat']
       tty: true
