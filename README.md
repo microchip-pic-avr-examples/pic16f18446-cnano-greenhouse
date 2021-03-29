@@ -1,12 +1,9 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/MicrochipLogo.png" alt="MCHP" style="max-width:40%;"></a></p>
- 
+[![MCHP](images/microchip.png)](https://www.microchip.com)
+
 # Plant Monitoring System using PIC16F18446
 
-## Objective:
 
 The designed application must read data from the sensors, display the status of the environment, and adjust the environment settings in a closed feedback loop. The feedback is represented by the measured soil moisture and bythe air humidity values. To measure these values, a soil moisture sensor and a temperature and humidity sensor are needed. To adjust these environment characteristics levels, devices such as fans and water pumps need to be used. Based on the acquired data, the fans and the pump are operated in order to keep the optimum conditions for the plant to develop.
-
 The firmware puts the PIC® MCU in Sleep mode after completing the mentioned tasks, and it wakes it up every second using a timer interrupt, being also power efficient. By putting the device in Sleep mode, some of the device’s features are turned off decreasing the power consumption, without impacting the application functionalities.
 
 The prototype diagram is presented below.
@@ -32,9 +29,9 @@ The components are interconnected according to the diagram presented below.
 
 - PIC16F18446 Curiosity Nano [(DM164144)](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164144)
 - Curiosity Nano Base for Click Boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-- OLED C click [(oled-c-click)](https://www.mikroe.com/oled-c-click)
-- RELAY click [(relay-click)](https://www.mikroe.com/relay-click)
-- Temp&Hum click [(temp-hum-click)](https://www.mikroe.com/temp-hum-click)
+- MikroElectronika™ OLED C Click™ [(oled-c-click)](https://www.mikroe.com/oled-c-click)
+- MikroElectronika™ RELAY Click™ [(relay-click)](https://www.mikroe.com/relay-click)
+- MikroElectronika™ Temp&Hum Click™ [(temp-hum-click)](https://www.mikroe.com/temp-hum-click)
 
 ## Setup
 

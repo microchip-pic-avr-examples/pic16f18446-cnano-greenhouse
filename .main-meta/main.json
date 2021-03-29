@@ -5,9 +5,9 @@
         "metaDataVersion": "1.0.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-cnano-greenhouses",
         "version": "1.0.3",
-        "displayName": "PIC16F18446 CNANO GREENHOUSE",
+        "displayName": "Plant Monitoring System using PIC16F18446",
         "projectName": "pic16f18446-cnano-greenhouse",
-        "shortDescription": "PIC16F18446 A plant monitoring system with automated control of soil moisture and air humidity",
+        "shortDescription": "A plant monitoring system with automated control of soil moisture and air humidity",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.30.0"
@@ -38,21 +38,14 @@
         "subcategories": [
             [
                "Peripherals", "ADCC"
-            ],
-            [
-               "Peripherals", "MSSP"
-            ],
-            [
-               "Peripherals", "TMR"
             ]						
         ],
         "peripherals": [
-            "ADCC","MSPP","TMR"
+            "ADCC"
         ],
         "keywords": [
-            "MCC",
+            "Greenhouse",
             "OLED C click",
-			"Curiosity Nano Click Boards™(AC164162)",
 			"RELAY click",
 			"Temp&Hum click"
         ],
