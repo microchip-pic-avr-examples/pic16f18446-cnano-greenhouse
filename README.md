@@ -137,7 +137,7 @@ To evaluate this application:
 
 <br><img src="images/cnano-greenhouse-make-and-program-device.png" width="400">
 
-Result:
+Demo
 <br><img src="images/greenhouse.png" width="600">
 
 ## Summary 
