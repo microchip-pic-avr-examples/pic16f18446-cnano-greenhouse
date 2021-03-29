@@ -139,7 +139,7 @@ To evaluate this application:
 
 Result:
 
-<img src="images/greenhouse.png" width="600">
+<br><img src="images/greenhouse.png" width="600">
 
 ## Summary 
 
