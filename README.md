@@ -115,7 +115,7 @@ The system starts by initializing the temperature and humidity sensor interface,
 
 The humidity, soil moisture and water level values are specific to this application according to the plant and the water reservoir dimensions. These values are configurable and can be changed in the main.c source file by modifying some macro definitions values.
 
-<img src="images/flowchart.jpg" width="600">
+<br><img src="images/flowchart.jpg" width="600">
 
 To evaluate this application:
 
