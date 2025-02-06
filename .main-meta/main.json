@@ -2,9 +2,9 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.0.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-cnano-greenhouses",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "displayName": "Plant Monitoring System using PIC16F18446",
         "projectName": "pic16f18446-cnano-greenhouse",
         "shortDescription": "A plant monitoring system with automated control of soil moisture and air humidity",
@@ -35,19 +35,15 @@
             }
         },
         "author": "Microchip",
-        "subcategories": [
-            [
-               "Peripherals", "ADCC"
-            ]						
-        ],
         "peripherals": [
-            "ADCC"
+            "ADCC",
+            "TMR"
         ],
         "keywords": [
-            "Greenhouse",
-            "OLED C click",
-			"RELAY click",
-			"Temp&Hum click"
+            "OLED",
+			"Air Temperature",
+            "Fan",
+            "Water Pump"
         ],
         "additionalData": {
             "longDescription": {

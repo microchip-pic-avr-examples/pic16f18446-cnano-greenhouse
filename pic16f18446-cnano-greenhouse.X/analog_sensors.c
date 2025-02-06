@@ -56,7 +56,7 @@ uint8_t ANALOG_readSoilMoisture(void)
             channel_ANB6_SetDigitalInput();
             channel_ANB4_ResetPullup();
             channel_ANB4_SetDigitalOutput();
-            soil += ADCC_GetSingleConversion(channel_ANB4);
+            soil += ADCC_GetSingleConversion(channel_ANB6);
         }
         
         conversion_state = !conversion_state;
